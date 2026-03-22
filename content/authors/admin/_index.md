@@ -1,17 +1,14 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Veda Sheersh Boorla
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Veda Sheersh
+last_name: Boorla
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🧬
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,167 +17,102 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Machine Learning Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Arcellx (Gilead)
+    url: https://www.arcellx.com/
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Vedasheersh
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/veda-sheersh-boorla-a9a0a783
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=V42cREYAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0003-0084-3975
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computational Protein Engineering
+  - Machine Learning for Protein Design
+  - Molecular Dynamics Simulation
+  - Enzyme Kinetics
+  - Antibody Engineering
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Chemical Engineering
+    institution: Penn State University
+    date_start: 2019-08-01
+    date_end: 2024-05-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Developed ML frameworks for enzyme kinetics prediction (CatPred, published in Nature Communications). Co-developed ML model for predicting mutation effects on SARS-CoV-2 Spike-hACE2 binding (published in PNAS). Designed de novo antibodies against SARS-CoV-2 Spike RBD. Advisor: Prof. Costas D. Maranas.
+  - area: BTech Chemical Engineering
+    institution: IIT Kharagpur
+    date_start: 2015-07-01
+    date_end: 2019-05-31
     summary: |
-      GPA: 3.8/4.0
+      Research on intrinsically disordered protein dynamics and flexibility analysis from molecular dynamics simulations.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Machine Learning Scientist
+    company_name: Arcellx (Gilead)
+    company_url: 'https://www.arcellx.com/'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-06-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Building agentic protein binder design pipelines
+      - Standing up GPU infrastructure for ML workloads
+      - Deploying internal tools for the computational biology team
+  - position: Research Intern
+    company_name: Amgen
+    company_url: 'https://www.amgen.com/'
+    company_logo: ''
+    date_start: 2023-05-01
+    date_end: 2023-08-31
+    summary: |
+      Led a full de novo binder design campaign for a novel therapeutic candidate using RFDiffusion, ProteinMPNN, and AlphaFold2.
+  - position: Graduate Research Assistant
+    company_name: Penn State University (Maranas Lab)
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2019-08-01
+    date_end: 2024-05-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Developed CatPred for enzyme kinetic parameter prediction (Nature Communications)
+      - Co-first author on SARS-CoV-2 Spike-ACE2 binding prediction (PNAS, 101 citations)
+      - Designed antibody libraries targeting SARS-CoV-2 Spike RBD
+      - Developed Enzrank for enzyme redesign and IPRO+/- for protein design with indels
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 95
         icon: code-bracket
-      - name: Data Science
+      - name: Machine Learning / Deep Learning
         description: ''
-        percent: 100
+        percent: 90
         icon: chart-bar
-      - name: SQL
+      - name: Molecular Dynamics
         description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+        percent: 85
+        icon: beaker
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - name: Telugu
+    percent: 100
+  - name: Hindi
+    percent: 90
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Into computational protein modeling and design since 2016. Chemical engineer by training. During PhD — designed an ML framework for prediction of enzyme kinetics with uncertainty, co-developed an ML model for predicting mutation effects on Spike-hACE2 binding using MD derived descriptors, and worked on several other projects. Interned at Amgen where I got to run a full de novo binder design campaign towards a novel therapeutic. Now I'm an ML Scientist at Arcellx (recently acquired by Gilead), building agentic protein binder design pipelines, standing up GPU infrastructure, and deploying internal tools for the team. I like working at the intersection of ML, protein engineering, and getting things into production.
